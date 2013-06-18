@@ -44,7 +44,7 @@ class Nyaa(TorrentMagnetProvider):
 
     def __init__(self):
         self.domain = self.conf('domain')
-        super(ThePirateBay, self).__init__()
+        super(Nyaa, self).__init__()
 
     def _searchOnTitle(self, title, movie, quality, results):
 
